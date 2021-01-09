@@ -12,56 +12,47 @@
   </head>
   <body>
 
-<!-- ************************************************************************ -->
+<!-- ****************************** -->
     <nav>
       <ul>
-<!-- <li class="logo">CodingNepal</li>
-<li class="btn"><span class="fas fa-bars"></span></li> -->
           <img class="logo" src="home/logo.png">
           <div class="items">
-          <!-- <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="portfoio.html">Portfolio</a></li>
-          <li><a href="#">Bloge</a></li>
-          <li><a href="#">Contact</a></li> -->
-          <button  class="button ">Home</button>
-          <button class="button ">Services</button>
-          <button onclick="location.href='portfoio.html';" class="button ">Portfolio</button>
-          <button onclick="location.href='blog.html';" class="button ">Blog</button>
-          <button class="button ">Contact</button>
-
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a class="active" href="portfoio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="#">Contact</a></li>
           </div>
-              <li class="search-icon">
-                    <input type="search" placeholder="">
-                    <label class="icon">
-                          <!-- <span class="fas fa-search"></span> -->
-                      <img src="home/search-icon.png">
-                    </label>
-              </li>
+          <li class="search-icon">
+              <input type="search" placeholder="">
+              <label class="icon">
+               <img src="home/search-icon.png">
+              </label>
+          </li>
       </ul>
-  </nav>
-  <!-- ************************************************************************ -->
+</nav>
+<!-- ****************************** -->
   <div class="menu_bar" >
       <div class="section group">
           <div class="col_ span_1_of_3">
             <img style="margin-top: 10px" src="home/feature-icons - Copy (2).png">
             <div style="float: right; width: 80%; float: right;">
                 <h4 style="font-size: 20px; color: red">Advertising</h4>
-                <span style="font-size: 12px;">It is a long established fact that a reader fact that a reader </span>
+                <span style="font-size: 13px;">It is a long established fact that a reader fact that a reader </span>
             </div>
           </div>
           <div class="col_ span_1_of_3">
           <img style="margin-top: 10px" src="home/feature-icons - Copy (3).png">
             <div style="float: right; width: 80%; float: right;">
                 <h4 style="font-size: 20px; color: red">Multimedia</h4>
-                <span style="font-size: 12px;">It is a long established fact that a reader fact that a reader </span>
+                <span style="font-size: 13px;">It is a long established fact that a reader fact that a reader </span>
             </div>
           </div>
           <div class="col_ span_1_of_3">
           <img style="margin-top: 10px" src="home/feature-icons - Copy.png">
             <div style="float: right; width: 80%; float: right;">
                 <h4 style="font-size: 20px; color: red">Photography</h4>
-                <span style="font-size: 12px;">It is a long established fact that a reader fact that a reader </span>
+                <span style="font-size: 13px;">It is a long established fact that a reader fact that a reader </span>
             </div>
           </div>
       </div>
@@ -70,8 +61,8 @@
 
 <div class="design" style="width: 950px; margin: auto;">
       <div class="design_">
-        <h1>DS'IGN THE SOUL</h1>
-        <button class="button ">Photogrphy</button>
+        <h1>DS'IGN THE SOUL</h1> 
+        <button class="button active_button">Photogrphy</button>
         <button class="button ">Multimedia</button>
         <button class="button ">Advertising</button>
       </div>
@@ -125,41 +116,19 @@
           </div> 
       </div>
 
-      <!-- <div class="section group">
-          <div class="col span_1_of_3">
-              <img src="home/image-1.png" onclick="openModal();currentSlide(1)">
-          </div>
-          <div class="col span_1_of_3">
-              <img src="home/image-2.png" onclick="openModal();currentSlide(2)">
-          </div>
-          <div class="col span_1_of_3">
-              <img src="home/image-3.png" onclick="openModal();currentSlide(3)">
-          </div>
-      </div>
-
       <div class="section group">
           <div class="col span_1_of_3">
-              <img src="home/image-1.png" onclick="openModal();currentSlide(1)">
+              <img src="home/image-1.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
           <div class="col span_1_of_3">
-              <img src="home/image-2.png" onclick="openModal();currentSlide(2)">
+              <img src="home/image-2.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
           </div>   
           <div class="col span_1_of_3">
-              <img src="home/image-3.png" onclick="openModal();currentSlide(3)">
-          </div>
+              <img src="home/image-3.png" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+          </div> 
       </div>
 
-      <div class="section group">
-          <div class="col span_1_of_3">
-              <img src="home/image-1.png" onclick="openModal();currentSlide(1)">
-          </div>
-          <div class="col span_1_of_3">
-              <img src="home/image-2.png" onclick="openModal();currentSlide(2)">
-          </div> 
-          <div class="col span_1_of_3">
-              <img src="home/image-3.png" onclick="openModal();currentSlide(3)">
-          </div>
-      </div> -->
+      
 
       <div class="pagination">
           <a href="#">1</a>
@@ -194,7 +163,7 @@
 
     <div class="mySlides">
       <div class="numbertext">3 / 4</div>
-      <img src="home/image-4.png" style="">
+      <img src="home/image-4.png" >
     </div>
     
     <div class="mySlides">
@@ -202,8 +171,8 @@
       <img src="home/image-5.png" style="">
     </div>
     
-        <a class="prev_" onclick="plusSlides(-1)"><img  src="home/3.png"></a>
-        <a class="next_" onclick="plusSlides(1)"><img  src="home/4.png"></a>
+        <a class="prev_" onclick="plusSlides(-1)"><img class="img_pic"  src="home/3.png"></a>
+        <a class="next_" onclick="plusSlides(1)"><img class="img_pic" src="home/4.png"></a>
     <div class="caption-container">
       <p id="caption"></p>
     </div>
@@ -211,6 +180,25 @@
 </div>
 
 
+    <!-- ********************** Footer ************************** -->
+    <div class="Footer" style="">
+      <div class="_fo">
+        <h2>Welcome to D'SIGN<span style="font-style: italic;">fly</span></h2>
+        <p style="margin:10px 0 10px 0; font-size: 14px; font-weight: bold; line-height: 21px">long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using eadable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+        <h5 style="color: #ef4634; font-weight: 500; font-size: 14px ">READ MORE</h5>
+      </div>
+      <div class="_fo"> 
+        <h2>Contact Us<span style="font-style: italic;">fly</span></h2>
+        <p style="margin:10px 0 10px 0; font-size: 14px; font-weight: bold; line-height: 21px">Street 21 Planet, A-11, dapibus tristique. 123 551<br>Tel: 1223 456890; Fax: 123 456789<br>Email:<a href="" style="color: red; text-decoration: none;">contactuo@designfy.com</a></p>
+        <img src="home/social - Copy.png">
+      </div>
+    </div>
+    <div class="lower_foo" style="width: 960px; height: 35px;  margin: auto; text-align: center; font-size: 14px; padding-top: 10px">
+      <!-- <p style="margin:auto;">  </p> -->
+      @2012 - D'SIGMfly | Designed by <a href="" style="color: red">rtCamp</a>
+    </div>
+
+    <!-- ******************************************************** -->
 
 <script>
 function openModal() {
