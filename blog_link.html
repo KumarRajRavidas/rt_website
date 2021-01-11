@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
-    <!-- <title>Responsive Navbar with Searchbox</title> -->
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -62,8 +59,8 @@
       <!-- ******************************************************** -->
       <div class="blog_box" style="width: 620px; height: 500px;">
         <div class="design_2">
-          <h1>Going to the place & making a case!</h1>
-          <p> by <a href="blog_link.html" style="color: #ef4634;">Robin Sen</a> on 21 DEC 2012 </p>
+          <h1 style="font-size: 35px; margin-bottom: 8px;">Going to the place & making a case!</h1>
+          <p> by <a href="blog_link.html" style="color: #ef4634; text-decoration: none">Robin Sen</a> on 21 DEC 2012 </p>
           <p style="float: right; color: #ef4634">12 comments</p>
         </div>
         <div class="discription">
@@ -88,14 +85,43 @@
           <p style="margin:5px 0 0 0">Comments</p>
         </div>
 
-        <form class="form_box">
-          <label for="subject" style="font-size: 18px; font-weight: bold;">Post your comment</label>
-            <textarea id="subject" name="subject" placeholder="" style="height:200px; width: 620px; resize: vertical; margin:5px 0 5px 0;"></textarea>
-          <label class="form">Name<input type=text name=foo id=foo /></label>
-          <label class="form">Email<input type=text name=bar id=bar /></label>
-          <label class="form">Website<input type=text name=bar id=bar /></label>
-        </form>
-         
+        <div class ="comment_box" style="height: 150px">
+          <div class="comment_header" style="margin-top: 15px">
+            <img src="home/65e.png" style="height: 15px; width: 20px; position: absolute; margin-top: 4px;">
+            <p style="font-size: 14px; margin-left: 30px"><a href="blog_link.html" style="color: #ef4634; text-decoration: none">Robin Sen</a> on 21 DEC 2012 </p>
+          </div>
+          <p style=" margin-left: 30px; font-size: 14px; line-height: 21px; font-weight: bold;">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+          <a style="float: right; margin-top: 10px"><img src="home/re_images.jpg" style="position: absolute;height: 20px; width: 20px"><p style="margin-bottom: 2px;  margin-left: 22px; font-size: 14px; font-weight: bold; cursor: pointer;"> reply</p></a>
+        </div>
+
+        <div class ="comment_box" style="height: 150px">
+          <div class="comment_header" style="margin-top: 15px">
+            <img src="home/65e.png" style="height: 15px; width: 20px; position: absolute; margin-top: 4px;">
+            <p style="font-size: 14px; margin-left: 30px"><a href="blog_link.html" style="color: #ef4634; text-decoration: none">Robin Sen</a> on 21 DEC 2012 </p>
+          </div>
+          <p style=" margin-left: 30px; font-size: 14px; line-height: 21px; font-weight: bold;">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like </p>
+          <a style="float: right; margin-top: 10px"><img src="home/re_images.jpg" style="position: absolute;height: 20px; width: 20px"><p style="margin-bottom: 2px;  margin-left: 22px; font-size: 14px; font-weight: bold; cursor: pointer;"> reply</p></a>
+        </div>
+
+        <div class ="comment_box" style="height: 180px; background-color: white; padding: 10px; margin-bottom: 50px;">
+          <div class="comment_header" style="margin-top: 15px">
+            <img src="home/65e.png" style="height: 15px; width: 20px; position: absolute; margin-top: 4px;">
+            <p style="font-size: 14px; margin-left: 30px"><a href="blog_link.html" style="color: #ef4634; text-decoration: none">Robin Sen</a> on 21 DEC 2012 </p>
+          </div>
+          <p style=" margin-left: 30px; font-size: 14px; line-height: 21px; font-weight: bold;">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+          <a style="float: right; margin-top: 10px"><img src="home/re_images.jpg" style="position: absolute;height: 20px; width: 20px"><p style="margin-bottom: 2px;  margin-left: 22px; font-size: 14px; font-weight: bold; cursor: pointer;"> reply</p></a>
+        </div>
+          <div class="form_container" style=" border-top: 1px solid black; padding-top: 20px">
+            <form class="form_box" >
+              <label for="subject" style="font-size: 18px; font-weight: bold;">Post your comment</label>
+                <textarea id="subject" name="subject" placeholder="" style="height:200px; width: 620px; resize: vertical; margin:5px 0 5px 0;"></textarea>
+              <label class="form">Name<input type=text name=foo id=foo /></label>
+              <label class="form">Email<input type=text name=bar id=bar /></label>
+              <label class="form">Website<input type=text name=bar id=bar /></label>
+
+            </form>
+            <button class="button ">submit</button>
+         </div>
       </div>
       <!-- ***************************************************************** -->
       <div class="blog_box2" style="width: 320px;">
@@ -274,7 +300,7 @@
               </div>
             </div>
 
-            <div class="facebook_page" style="width: 270px; background-color: #8585e0; height: 220px; margin-top: 30px; margin-bottom: 30px; float: right;">
+            <div class="facebook_page" style="width: 270px; background-color: #8585e0; height: 220px; margin-top: 30px; margin-bottom: 300px; float: right;">
             </div>
         </div>
         <!-- ****************************************************** -->
@@ -294,8 +320,7 @@
       </div>
     </div>
     <div class="lower_foo" style="width: 960px; height: 35px;  margin: auto; text-align: center; font-size: 14px; padding-top: 10px">
-      <!-- <p style="margin:auto;">  </p> -->
-      @2012 - D'SIGMfly | Designed by <a href="" style="color: red">rtCamp</a>
+      @2012 - D'SIGMfly | Designed by <a href="" style="color: red; text-decoration: none;">rtCamp</a>
     </div>
 
     <!-- ******************************************************** -->
