@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
-    <!-- <title>Responsive Navbar with Searchbox</title> -->
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -69,61 +66,61 @@
 
 
       <div class="section group">
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-1.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-2.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
           </div>   
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-3.png" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
           </div> 
       </div>
 
       <div class="section group">
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-1.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-2.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
           </div>   
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-3.png" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
           </div> 
       </div>
 
       <div class="section group">
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-1.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-2.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
           </div>   
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-3.png" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
           </div> 
       </div>
 
       <div class="section group">
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-1.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-2.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
           </div>   
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-3.png" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
           </div> 
       </div>
 
       <div class="section group">
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-1.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-2.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
           </div>   
-          <div class="col span_1_of_3">
+          <div class="col span_1_of_3 col_">
               <img src="home/image-3.png" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
           </div> 
       </div>
@@ -140,7 +137,7 @@
 </div>
 
       
-      <!-- ******************************************** -->
+    <!-- ******************************************** -->
 
 
     <!-- ******************************************** -->
@@ -152,32 +149,34 @@
   <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
+      <!-- <div class="numbertext">1 / 4</div> -->
       <img src="home/image-1.png" >
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
+      <!-- <div class="numbertext">2 / 4</div> -->
       <img src="home/image-6.png" >
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
+      <!-- <div class="numbertext">3 / 4</div> -->
       <img src="home/image-4.png" >
     </div>
     
     <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
+      <!-- <div class="numbertext">4 / 4</div> -->
       <img src="home/image-5.png" style="">
     </div>
-    
-        <a class="prev_" onclick="plusSlides(-1)"><img class="img_pic"  src="home/3.png"></a>
-        <a class="next_" onclick="plusSlides(1)"><img class="img_pic" src="home/4.png"></a>
+
+      <a class="prev_" onclick="plusSlides(-1)"><img class="img_pic" style="height: 20px; top: 85%; width: 20px;  right:480px; cursor: pointer; position: absolute;" src="home/3.png"></a>
+      <a class="next_" onclick="plusSlides(1)"><img class="img_pic" style="height: 20px; top: 85%; width: 20px;  left: 480px; cursor: pointer; position: absolute;"  src="home/4.png"></a>        
     <div class="caption-container">
-      <p id="caption"></p>
+      <p id="caption"> This is image</p>
     </div>
+
   </div>
 </div>
+
 
 
     <!-- ********************** Footer ************************** -->
@@ -194,8 +193,7 @@
       </div>
     </div>
     <div class="lower_foo" style="width: 960px; height: 35px;  margin: auto; text-align: center; font-size: 14px; padding-top: 10px">
-      <!-- <p style="margin:auto;">  </p> -->
-      @2012 - D'SIGMfly | Designed by <a href="" style="color: red">rtCamp</a>
+      @2012 - D'SIGMfly | Designed by <a href="" style="color: red; text-decoration: none;">rtCamp</a>
     </div>
 
     <!-- ******************************************************** -->
@@ -221,7 +219,7 @@ function plusSlides(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
+  // var dots = document.getElementsByClassName("demo");
   var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
